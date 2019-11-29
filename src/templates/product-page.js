@@ -57,7 +57,7 @@ export default function ProductPage({ data }) {
         data-item-custom1-name="Colour"
         data-item-custom1-options={colourName}
         data-item-price={data.markdownRemark.frontmatter.price}
-        data-item-url={data.markdownRemark.fields.slug}
+        data-item-url={'https://priceless-wozniak-41c0a2.netlify.com' + data.markdownRemark.fields.slug}
         data-item-name={data.markdownRemark.frontmatter.name}
         data-item-image={imgsrc}
       >
